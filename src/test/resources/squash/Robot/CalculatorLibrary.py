@@ -1,6 +1,5 @@
 from calculator import Calculator, CalculationError
 
-
 class CalculatorLibrary(object):
     """Test library for testing *Calculator* business logic.
     Interacts with the calculator directly using its ``push`` method.
@@ -56,4 +55,3 @@ class CalculatorLibrary(object):
         else:
             raise AssertionError("'%s' should have caused an error."
                                  % expression)
-
